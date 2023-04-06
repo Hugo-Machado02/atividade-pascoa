@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(imagens/pascoa1.jpg);
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.corpo{
+    background-color: rgba(0, 0, 0, 0.7);
+    background-position: fixed;
+}
+
+.texto{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.titulo{
+    padding-top: 2%;
+    text-align: center;
+}
+
+.titulo h1{
+    color: #3498db;
+}
+
+.lateral{
+    display: block;
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.container{
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+}
+.left{
+    width: 35%;
+    margin-right: 4%;
+    color: #2ecc71;
+}
+
+.right{
+    width: 35%;
+    color: #2ecc71;
+}
+.container .paragrafo{
+    text-indent: 20px;
+    transition: 0.5s;
+}
+
+
+.copy{
+    margin: 4%;
+}
+strong{
+    color: white;
+}
+
+
+b, sub, i{
+    color: #3498db;;
+}
+
+em{
+    color: #f5702e;
+}
+
+sup{
+    color: #2ecc71;
+}
+
+
+del{
+    color: #f5702e;
+}
+
+
+.paragrafo{ 
+    margin-top: 20px;
+    text-indent: 60px;
+    text-align: justify;
+}
+
+.final{
+    background-color: #4B4B4B;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 5px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-top: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .paragrafo:hover{
+    color: white;
+}
+
+.container .paragrafo:hover strong{
+    color: #2ecc71;
+}
